@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="icon"
       type="image/png"
@@ -17,32 +30,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="primary-heading-box">
-        <p class="primary-heading">Perfume</p>
-      </div>
-    </header>
     <main>
-      <div class="product-name">
-        <h1 class="primary-heading">Gabrielle Essence Eau De Parfum</h1>
-      </div>
+      <div class="grid-2-cols container">
+        <div class="grid-container-img">
+          <img
+            class="product-img"
+            src="images/image-product-desktop.jpg"
+            alt="Bottle of GABRIELLE CHANEL PARIS perfume laying flat on a white table with leaves above and below it, framing it beautifully."
+          />
+        </div>
 
-      <div class="product-description">
-        <p class="production-description-text">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-      </div>
+        <div class="product-info grid-container-text">
+          <p class="product-type">PERFUME</p>
+          <h1 class="primary-heading">Gabrielle Essence Eau De Parfum</h1>
+          <p class="product-description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
 
-      <div class="price">
-        <div class="discount-price">$149.99</div>
-        <div class="full-price">$169.99</div>
+          <div class="price">
+            <div class="discount-price">$149.99</div>
+            <div class="full-price">$169.99</div>
+          </div>
+          <a href="#" class="card-btn btn"
+            ><img
+              class="cart-icon"
+              src="images/icon-cart.svg"
+              alt="cart icon"
+            />Add to Cart</a
+          >
+        </div>
       </div>
     </main>
-    <footer>
-      <div class="add-to-cart">
-        <a class="card-btn btn"> Add to Cart</a>
-      </div>
-    </footer>
   </body>
 </html>
